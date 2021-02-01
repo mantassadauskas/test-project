@@ -14,8 +14,12 @@
     "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
-    "build": "webpack --mode development",
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
     "watch": "webpack serve --open",
-    "start": "webpack --mode production"
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "serve": "^11.3.2"
   }
 }
