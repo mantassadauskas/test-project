@@ -1,5 +1,6 @@
-import "./main.css";
-import "./style.scss";
+import "../src/main.css";
+import "../src/style.scss";
+
 import { changeBodyBackground } from "./events.js";
 
 console.log("Hello webpack!");
