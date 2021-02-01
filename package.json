@@ -17,7 +17,7 @@
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
     "watch": "webpack serve --open",
-    "heroku-prebuild": "npm install -f",
+    "heroku-prebuild": "npm install --dev",
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
