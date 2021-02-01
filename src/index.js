@@ -9,4 +9,5 @@ const btn = document.getElementById("btn");
 btn.addEventListener("click", () => {
     changeBodyBackground();
     console.log('click');
+
 });
