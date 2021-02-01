@@ -14,6 +14,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
+    "start": "serve -s build",
     "build": "npm i --dev && webpack --mode production --config ./webpack.config.js",
     "build:dev": "webpack --mode development",
     "watch": "webpack serve --open",
